@@ -44,7 +44,7 @@ export const getTodaysMatches = async id => {
 };
 
 export const getNextMatches = async id => {
-  const now = new Date();
+  const now = new Date(2019, 1, 1);
   const until = new Date();
   until.setDate(now.getDate() + 21);
   return getMatches(id, toIsoString(now), toIsoString(until));

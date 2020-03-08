@@ -1,6 +1,5 @@
 import React from 'react';
 import './HomeContentCard.css';
-import Home from '../../pages/Home';
 
 const HomeContentCard = ({title, text}) => (
     <div className="home-content-card">

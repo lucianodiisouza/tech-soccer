@@ -15,7 +15,7 @@ const App = () => (
         <NavBar />
         <main>
             <Route exact path="/" component={Home} />
-            <Route path="/brasileirao" component={Brasileirao} />
+            <Route path="/primeira-division" component={Brasileirao} />
             <Route path="/ao-vivo" component={LiveMatch} />
         </main>
     </>

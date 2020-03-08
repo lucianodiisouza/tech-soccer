@@ -9,8 +9,8 @@ const links = [
         text: 'Home'
     },
     {
-        to: '/brasileirao',
-        text: 'Brasileirão 2020'
+        to: '/primeira-division',
+        text: 'Primeira Divisão - Espanha'
     },
     {
         to: '/ao-vivo',
