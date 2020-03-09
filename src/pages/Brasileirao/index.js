@@ -1,18 +1,9 @@
 import React from 'react'
 import { getLeagueTable, getNextMatches } from '../../api/api';
 import createPersistedState from 'use-persisted-state';
+import formatDate from '../../sharedFunctions';
 
 import './Brasileirao.css';
-
-const dateTimeFormat = Intl.DateTimeFormat('pt-br', {
-    year: 'numeric',
-    month: 'numeric',
-    day: 'numeric',
-    hour: 'numeric',
-    minute: 'numeric'
-});
-
-const formatDate = date => dateTimeFormat.format(new Date());
 
 const useLocalFavoritesState = createPersistedState('tech.soccer.favorites');
 
