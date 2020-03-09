@@ -9,8 +9,8 @@ const links = [
         text: 'Home'
     },
     {
-        to: '/primeira-division',
-        text: 'Primeira Divisão - Espanha'
+        to: '/primeira-divisao',
+        text: 'Primeira Divisão'
     },
     {
         to: '/ao-vivo',
